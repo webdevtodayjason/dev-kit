@@ -137,11 +137,19 @@ it can't break your tool calls on day one. To turn it on, install `uv`, then run
 - **Output styles:** `coding-vibes`, `structural-thinking`.
 - **MCP:** `context7` (keyless docs lookup).
 - **`CLAUDE.template.md`:** fill-in operating instructions.
+- **Statusline:** `plugins/dev-kit/statusline/statusline.sh` — a clean Claude Code status bar (project · branch · model · context % · tokens).
+- **Terminal preset:** `plugins/dev-kit/terminal/starship.toml` + **`TERMINAL-SETUP.md`** — iTerm2 + Nerd Font + Starship, with an AI handoff prompt.
 
 ## What's intentionally NOT included
 Anything machine-specific or private: orchestration tooling, secret managers,
 personal infrastructure, business-project specifics, and **any credentials**. Bring
 your own keys and your own conventions where they differ.
+
+---
+
+## Companion guides
+- **[ONBOARDING.md](ONBOARDING.md)** — full macOS new-dev walkthrough (install Claude → paste-to-agent setup of the whole toolchain).
+- **[TERMINAL-SETUP.md](TERMINAL-SETUP.md)** — iTerm2 + Nerd Font + Starship + the Claude statusline, with an AI handoff prompt.
 
 ---
 

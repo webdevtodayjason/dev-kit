@@ -1,0 +1,73 @@
+# Two-line Starship prompt — clean + language-aware. Needs a Nerd Font (see TERMINAL-SETUP.md).
+
+# Two-line prompt: info on top, clean input below
+format = """
+$directory\
+$git_branch\
+$git_status\
+$python\
+$nodejs\
+$docker_context\
+$cmd_duration\
+$fill\
+$time
+$character"""
+
+
+# ── Directory ──
+[directory]
+format = "[$path]($style) "
+style = "bold cyan"
+truncation_length = 3
+truncation_symbol = "…/"
+
+# ── Git ──
+[git_branch]
+format = "[$symbol$branch]($style) "
+symbol = " "
+style = "bold green"
+
+[git_status]
+format = '([$all_status$ahead_behind]($style) )'
+style = "bold red"
+
+# ── Languages (only show when relevant) ──
+[python]
+format = '[${symbol}${version}]($style) '
+symbol = " "
+style = "bold yellow"
+
+[nodejs]
+format = '[${symbol}${version}]($style) '
+symbol = " "
+style = "bold green"
+
+[docker_context]
+format = '[${symbol}${context}]($style) '
+symbol = " "
+style = "bold blue"
+
+# ── Right side: time ──
+[fill]
+symbol = " "
+
+[time]
+disabled = false
+format = "[$time]($style)"
+style = "dimmed white"
+time_format = "%H:%M"
+
+# ── Command duration (shows when commands take > 2s) ──
+[cmd_duration]
+format = "[⏱ $duration]($style) "
+style = "bold yellow"
+min_time = 2000
+
+# ── Input line ──
+[character]
+success_symbol = "[❯](bold purple)"
+error_symbol = "[❯](bold red)"
+
+# ── Hide gcloud ──
+[gcloud]
+disabled = true
