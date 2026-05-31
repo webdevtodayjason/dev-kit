@@ -153,4 +153,4 @@ your own keys and your own conventions where they differ.
 
 ---
 
-*Maintained by [@webdevtodayjason](https://github.com/webdevtodayjason).*
+Built by **Jason Brashear** — [jasonbrashear.com](https://jasonbrashear.com) · [Substack](https://jasonbrashear.substack.com) · [GitHub @webdevtodayjason](https://github.com/webdevtodayjason)
