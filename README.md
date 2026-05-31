@@ -150,6 +150,7 @@ your own keys and your own conventions where they differ.
 ## Companion guides
 - **[ONBOARDING.md](ONBOARDING.md)** — full macOS new-dev walkthrough (install Claude → paste-to-agent setup of the whole toolchain).
 - **[TERMINAL-SETUP.md](TERMINAL-SETUP.md)** — iTerm2 + Nerd Font + Starship + the Claude statusline, with an AI handoff prompt.
+- **[STACK.md](STACK.md)** — the companion plugins (claude-mem, CodeRabbit, Codex, Ralph Wiggum) + MCPs (Linear, ghost) that complete the workflow, with exact install commands.
 
 ---
 

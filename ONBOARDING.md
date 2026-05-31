@@ -102,6 +102,9 @@ PHASE 7 — Authenticate everything (interactive — guide me, then verify)
 
 PHASE 8 — Our shared Claude workflow (dev-kit)
 - Run `/plugin marketplace add webdevtodayjason/dev-kit` then `/plugin install dev-kit@jason`.
+- Companion plugins (see STACK.md in the repo): offer to install our team's other
+  plugins — claude-mem, CodeRabbit, Codex, Ralph Wiggum (swift-lsp only for Swift) —
+  and the Linear / ghost MCPs with MY own keys. Ask which I want; don't assume all.
 - Tell me to restart Claude Code so skills/commands/agents/MCP register.
 - Copy `CLAUDE.template.md` from the installed dev-kit plugin to `~/.claude/CLAUDE.md`,
   then interview me to fill in every <PLACEHOLDER>.
