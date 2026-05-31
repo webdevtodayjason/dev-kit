@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jason",
+  "version": "1.0.0",
+  "description": "Jason's portable Claude Code development kit — generic dev skills, slash commands, sub-agents, output styles, security hooks, and a fill-in CLAUDE.md template. Ships zero credentials and no private infra.",
+  "owner": {
+    "name": "webdevtodayjason",
+    "url": "https://github.com/webdevtodayjason"
+  },
+  "plugins": [
+    {
+      "name": "dev-kit",
+      "source": "./plugins/dev-kit",
+      "description": "Portable dev workflow: skills (tdd, diagnose, find-docs, write-a-skill, language conventions, damage-control security hooks, and more), code-review / commit / security-review commands, 5 sub-agents, 2 output styles, a keyless context7 MCP, and a sanitized CLAUDE.md template.",
+      "version": "1.0.0",
+      "category": "productivity"
+    }
+  ]
+}

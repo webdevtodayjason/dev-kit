@@ -1,0 +1,14 @@
+{
+  "name": "dev-kit",
+  "version": "1.0.0",
+  "description": "Jason's portable development workflow for Claude Code — skills, slash commands, sub-agents, output styles, and a CLAUDE.md template. Ships zero credentials; bring your own MCP keys and choose your own permission posture.",
+  "author": {
+    "name": "Jason Brashear",
+    "url": "https://github.com/webdevtodayjason"
+  },
+  "homepage": "https://github.com/webdevtodayjason/dev-kit",
+  "repository": "https://github.com/webdevtodayjason/dev-kit",
+  "license": "MIT",
+  "keywords": ["workflow", "skills", "tdd", "code-review", "conventions", "security", "onboarding"],
+  "mcpServers": "./.mcp.json"
+}
